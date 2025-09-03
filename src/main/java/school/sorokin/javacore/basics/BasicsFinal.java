@@ -21,8 +21,7 @@ public class BasicsFinal {
 
         boolean exit = false;
         while (!exit) {
-            System.out.println();
-            System.out.println("Пожалуйста, выберите нужный пункт меню:");
+            System.out.println("\nПожалуйста, выберите нужный пункт меню:");
             System.out.println("1. Добавить контакты");
             System.out.println("2. Просмотреть контакты");
             System.out.println("3. Найти контакт");
@@ -63,7 +62,7 @@ public class BasicsFinal {
      * @param names         список имен контактов
      * @param phoneNumbers  список номеров вконтактов
      * @param lastContactAt индекс, под которым хранится последний добавленный контакт
-     * @return обновленный индекс, под которым хранится последний добавленный контактё
+     * @return обновленный индекс, под которым хранится последний добавленный контакт
      */
     public static int addContact(String[] names, String[] phoneNumbers, int lastContactAt) {
         if (lastContactAt == N - 1) {
@@ -97,7 +96,7 @@ public class BasicsFinal {
      * Находит и выводит контакт по имени
      *
      * @param names        список имен контактов
-     * @param phoneNumbers список номеров вконтактов
+     * @param phoneNumbers список номеров контактов
      */
     public static void findContact(String[] names, String[] phoneNumbers) {
         System.out.print("Введите имя для поиска: ");
