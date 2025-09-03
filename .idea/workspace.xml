@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da526bc6-b1de-4439-bc47-3c0a7561ad8e" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/basics/BasicsFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da526bc6-b1de-4439-bc47-3c0a7561ad8e" name="Changes" comment="Домашние самостоятельные работы по разделу ООП">
+      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +37,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xK91Ai4AMYcOZo0Lw6YEyJ8hsk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,39 +49,57 @@
     "Application.App.executor": "Run",
     "Application.ArraysLesson.executor": "Run",
     "Application.BasicsFinal.executor": "Debug",
+    "Application.Canvas.executor": "Run",
     "Application.CyclesLesson.executor": "Run",
     "Application.IfElseLesson.executor": "Run",
+    "Application.Library.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.OperatorsLesson.executor": "Run",
     "Application.StringsLesson.executor": "Run",
     "Application.VariablesLesson.executor": "Run",
+    "Application.school.sorokin.javacore.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.abstraction_and_interfaces.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.encapsulation.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.statics.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.types.Main.executor": "Run",
+    "Application.school.sorokin.javacore.test.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/repos/Java Core Tasks/src/main/java/school/sorokin/javacore/oop/inheritance_and_polymorphism",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repos\Java Core Tasks\src\main\java\school\sorokin\javacore\oop\inheritance_and_polymorphism" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="school.sorokin.javacore.basics" />
+      <recent name="school.sorokin.javacore" />
+      <recent name="school.sorokin.javacore.test" />
+      <recent name="school.sorokin.javacore.oop.inheritance_and_polymorphism" />
+      <recent name="school.sorokin.javacore.oop.encapsulation" />
+      <recent name="school.sorokin.javacore.oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicsFinal">
-    <configuration name="ArraysLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.ArraysLesson" />
+  <component name="RunManager" selected="Application.Library">
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.object.Library" />
       <module name="java-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicsFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.BasicsFinal" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.javacore.Main" />
       <module name="java-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclesLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.CyclesLesson" />
+    <configuration name="school.sorokin.javacore.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.Main" />
       <module name="java-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfElseLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.IfElseLesson" />
+    <configuration name="school.sorokin.javacore.oop.abstraction_and_interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.abstraction_and_interfaces.Main" />
       <module name="java-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.abstraction_and_interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.StringsLesson" />
+    <configuration name="school.sorokin.javacore.oop.statics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.statics.Main" />
       <module name="java-core-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.statics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicsFinal" />
-        <item itemvalue="Application.StringsLesson" />
-        <item itemvalue="Application.ArraysLesson" />
-        <item itemvalue="Application.CyclesLesson" />
-        <item itemvalue="Application.IfElseLesson" />
+        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.school.sorokin.javacore.oop.statics.Main" />
+        <item itemvalue="Application.school.sorokin.javacore.oop.abstraction_and_interfaces.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.school.sorokin.javacore.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +185,11 @@
       <option name="presentableId" value="Default" />
       <updated>1747675684268</updated>
       <workItem from="1747675685323" duration="2528000" />
-      <workItem from="1748613503608" duration="17053000" />
+      <workItem from="1748613503608" duration="17643000" />
+      <workItem from="1750275689318" duration="1220000" />
+      <workItem from="1752531695398" duration="3212000" />
+      <workItem from="1754393416627" duration="3868000" />
+      <workItem from="1756209442107" duration="29873000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -189,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749137316082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сделала финальную домашнюю работу по Java Core Basics">
+      <option name="closed" value="true" />
+      <created>1749154193582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749154193582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Домашние самостоятельные работы по разделу ООП">
+      <option name="closed" value="true" />
+      <created>1756901123741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756901123741</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +248,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="final-homework-java-core-basics" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -220,17 +262,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/school/sorokin/javacore/basics/BasicsFinal.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Сделала финальную домашнюю работу по Java Core Basics" />
+    <MESSAGE value="Домашние самостоятельные работы по разделу ООП" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашние самостоятельные работы по разделу ООП" />
   </component>
 </project>
