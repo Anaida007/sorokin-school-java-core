@@ -5,7 +5,10 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static final Library library = new Library();
+    private static final String ENTER_TITLE = "Введите название книги:";
+    private static final String ENTER_AUTHOR = "Введите автора книги:";
+
+    private static final Library library = new Library();
 
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
@@ -70,9 +73,9 @@ public class Main {
      * Дообавляет книгу в библиотеку
      */
     private static void addBook() {
-        System.out.println("Введите название книги:");
+        System.out.println(ENTER_TITLE);
         String title = scanner.nextLine();
-        System.out.println("Введите автора книги:");
+        System.out.println(ENTER_AUTHOR);
         String author = scanner.nextLine();
         boolean numberIsRight = false;
         int availableCopies = 0;
@@ -97,9 +100,9 @@ public class Main {
      * Выдает книгу
      */
     private static void giveBook() {
-        System.out.println("Введите название книги:");
+        System.out.println(ENTER_TITLE);
         String title = scanner.nextLine();
-        System.out.println("Введите автора книги:");
+        System.out.println(ENTER_AUTHOR);
         String author = scanner.nextLine();
         try {
             library.takeBook(title, author);
@@ -113,9 +116,9 @@ public class Main {
      * Возвращает книгу в библиотеку
      */
     private static void returnBook() {
-        System.out.println("Введите название книги:");
+        System.out.println(ENTER_TITLE);
         String title = scanner.nextLine();
-        System.out.println("Введите автора книги:");
+        System.out.println(ENTER_AUTHOR);
         String author = scanner.nextLine();
         try {
             library.returnBook(title, author);
